@@ -27,14 +27,14 @@ export const TopBar: React.FC = () => {
       </div>
 
       <div className="flex justify-center font-semibold">
-        <div className="min-w-[227px]">
+        <div className="min-[300px]:min-w-[50%]">
           <div className={`m-auto w-fit cursor-pointer px-4 py-4 text-center text-[15px] ${toggleLeftTab ? "border-b-4 border-[#4C9EEB]" : ""}`} onClick={handleLeftTabClick}>
-            For you
+            <a href="#">For you</a>
           </div>
         </div>
-        <div className="min-w-[227px]">
+        <div className="min-[300px]:min-w-[50%]">
           <div className={`m-auto w-fit cursor-pointer px-4 py-4 text-center text-[15px] ${toggleRightTab ? "border-b-4 border-[#4C9EEB]" : ""}`} onClick={handleRightTabClick}>
-            Following
+            <a href="#">Following</a>
           </div>
         </div>
       </div>
