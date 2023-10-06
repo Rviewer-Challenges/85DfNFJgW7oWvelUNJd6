@@ -9,8 +9,7 @@ body {
   height: 5000px;
 }
 
-.container {
+.customContainer {
   width: 100%;
-  max-width: 598px;
   margin: 0 auto;
 }

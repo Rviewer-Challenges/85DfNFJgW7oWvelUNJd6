@@ -10,7 +10,7 @@ function App() {
       <div className={`${scrollDir === "u" ? "opacity-1" : "opacity-40"} max-[499px]:hidden`}>
         <SideBar />
       </div>
-      <div className="container">
+      <div className="customContainer">
         <TopBar />
         <div className="h-[1px] bg-[#2F3336]"></div>
         <div className="flex min-h-[48px] items-center justify-center text-[15px] font-light text-[#1D9BF0]">Show 46 posts</div>
