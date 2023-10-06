@@ -1,4 +1,4 @@
 import { TopBar } from "./TopBar/TopBar";
-import { BottomNav } from "./BottomNav/BottomNav";
+import { BottomBar } from "./BottomBar/BottomBar";
 
-export { TopBar, BottomNav };
+export { TopBar, BottomBar };
