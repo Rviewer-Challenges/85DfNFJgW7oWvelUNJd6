@@ -6,6 +6,7 @@ body {
   font-family: "Inter", sans-serif, monospace;
   background-color: #000;
   color: white;
+  height: 1000px;
 }
 
 .container {
