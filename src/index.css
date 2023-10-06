@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif, monospace;
+  background-color: #000;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 598px;
+  margin: 0 auto;
+}

@@ -1,7 +1,14 @@
+import { TopBar } from "./components";
+
 function App() {
   return (
     <>
-      <h1 className="bg-blue-600 text-3xl font-bold text-green-600">Hello world!</h1>
+      <div className="container">
+        <TopBar />
+        <div className="h-[1px] bg-[#2F3336]"></div>
+        <div className="flex min-h-[48px] items-center justify-center text-[15px] font-light text-[#1D9BF0]">Show 46 posts</div>
+        <div className="h-[1px] bg-[#2F3336]"></div>
+      </div>
     </>
   );
 }
