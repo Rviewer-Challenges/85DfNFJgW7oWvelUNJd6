@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="flex">
-      <div className={`${scrollDir === "u" ? "opacity-1" : "opacity-40"} max-[499px]:hidden`}>
+      <div className={`max-[499px]:hidden`}>
         <SideBar />
       </div>
       <div className="customContainer">
